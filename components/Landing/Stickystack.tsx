@@ -6,17 +6,17 @@ export default function StickyStack() {
       <div className="relative">
   
         {/* Section 1 */}
-        <div className="sticky top-20 h-screen w-full flex items-center justify-center z-10 pb-20 px-4 md:px-16" id="features">
+        <div className="sticky top-20 h-auto min-h-screen w-full flex items-center justify-center z-10 pb-10 md:pb-20 px-4 md:px-16" id="features">
           <div className="w-full lg:w-400 bg-white h-auto lg:h-180 rounded-2xl p-6 md:p-10 shadow-sm flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-3">
             <div className="flex flex-col items-start gap-5 w-full lg:w-2xl lg:p-20">
                <span className="font-light text-lg">MEANING</span>
                <span className="text-3xl md:text-4xl font-light">Strengthen connection</span>
-               <span className="text-lg font-light">Bring your people together through meaningful rituals, guided team-building exercises, and shared experiences.</span>
+               <span className="text-base md:text-lg font-light">Bring your people together through meaningful rituals, guided team-building exercises, and shared experiences.</span>
                <button className="bg-black rounded-full p-2 px-5 text-white/90 text-lg font-medium">Get Started</button>
             </div>
 
             {/* stack images  */}
-            <div className="relative w-full lg:w-3xl h-100 lg:h-full rounded-2xl overflow-hidden flex items-center justify-center"
+            <div className="relative w-full lg:w-3xl h-64 md:h-100 lg:h-full rounded-2xl overflow-hidden flex items-center justify-center"
             style={{backgroundImage: `url('/ken-cheung-KonWFWUaAuk-unsplash.jpg')`,
               backgroundSize: 'cover',
               backgroundPosition: 'center'}} >
@@ -41,16 +41,16 @@ export default function StickyStack() {
         </div>
   
         {/* section 2 */}
-        <div className="sticky top-30 h-screen w-full flex items-center justify-center z-20 pb-20 px-4 md:px-16">
+        <div className="sticky top-30 h-auto min-h-screen w-full flex items-center justify-center z-20 pb-10 md:pb-20 px-4 md:px-16">
           <div className="w-full lg:w-400 bg-[#c9c7c4] h-auto lg:h-180 rounded-2xl p-6 md:p-10 shadow-sm flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-3">
             <div className="flex flex-col items-start gap-5 w-full lg:w-2xl lg:p-20">
                <span className="font-light text-lg">INSIGHT</span>
                <span className="text-3xl md:text-4xl font-light">Culture pulse & insights</span>
-               <span className="text-lg font-light">Stay in tune with your team through lightweight check-ins and clear engagement data, giving leaders visibility.</span>
+               <span className="text-base md:text-lg font-light">Stay in tune with your team through lightweight check-ins and clear engagement data, giving leaders visibility.</span>
                <button className="bg-black rounded-full p-2 px-5 text-white/90 text-lg font-medium">Get Started</button>
             </div>
 
-            <div className="relative w-full lg:w-3xl h-100 lg:h-full rounded-2xl overflow-hidden flex items-center justify-center"
+            <div className="relative w-full lg:w-3xl h-64 md:h-100 lg:h-full rounded-2xl overflow-hidden flex items-center justify-center"
             style={{backgroundImage: `url('/green.JPG')`,
               backgroundSize: 'cover',
               backgroundPosition: 'center'}} >
@@ -60,16 +60,16 @@ export default function StickyStack() {
         </div>
 
         {/* section 3 */}
-        <div className="sticky top-40 h-screen w-full flex items-center justify-center z-30 pb-20 px-4 md:px-16">
+        <div className="sticky top-40 h-auto min-h-screen w-full flex items-center justify-center z-30 pb-10 md:pb-20 px-4 md:px-16">
           <div className="w-full lg:w-400 bg-yellow-300 h-auto lg:h-180 rounded-2xl p-6 md:p-10 shadow-sm flex flex-col lg:flex-row items-center justify-between gap-6 lg:gap-3">
             <div className="flex flex-col items-start gap-5 w-full lg:w-2xl lg:p-20">
                <span className="font-light text-lg">CULTURE</span>
                <span className="text-3xl md:text-4xl font-light">Recognition & shared wins</span>
-               <span className="text-lg font-light">Create a culture of appreciation with built-in recognition tools that make it easy to celebrate milestones.</span>
+               <span className="text-base md:text-lg font-light">Create a culture of appreciation with built-in recognition tools that make it easy to celebrate milestones.</span>
                <button className="bg-black rounded-full p-2 px-5 text-white/90 text-lg font-medium">Get Started</button>
             </div>
 
-            <div className="w-full lg:w-3xl h-100 lg:h-full rounded-2xl relative text-white"
+            <div className="w-full lg:w-3xl h-64 md:h-100 lg:h-full rounded-2xl relative text-white"
               style={{backgroundImage: `url('/john-cobb-IE_sifhay7o-unsplash.jpg')`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center'}}
