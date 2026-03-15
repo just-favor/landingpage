@@ -13,7 +13,7 @@ export default function Header() {
   ]
 
   return (
-    <header className="w-full flex justify-center p-4 fixed top-5 left-0 z-50">
+    <header className="w-full flex justify-center p-4 fixed top-2 md:top-5 left-0 z-50">
       <nav className="flex items-center justify-between w-full  sm:max-w-lg md:max-w-2xl bg-white/70 backdrop-blur-md px-4 py-2 md:py-2 rounded-full shadow-md">
 
         {/* Logo */}
