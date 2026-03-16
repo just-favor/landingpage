@@ -37,7 +37,7 @@ function AIfeats() {
   }, []);
 
   return (
-    <section className="min-h-screen mx-auto px-4 md:px-0">
+    <section className="min-h-screen mx-auto px-4 md:px-0 py-10 md:py-20 flex flex-col items-center justify-start gap-10">
       <div className="mx-auto text-center max-w-3xl px-4">
         <h1 className={`${serif.className} text-3xl md:text-6xl lg:text-7xl font-light text-gray-900 leading-tight max-w-6xl mb-6 md:mb-10`}>
           Proven results with innovative AI features
@@ -48,17 +48,17 @@ function AIfeats() {
       </div>
 
       {/* grid section */}
-      <section className="my-10 md:my-20 flex items-center justify-center w-full md:w-[85%] p-3 md:p-8 mx-auto">
-        <div className="w-full grid grid-cols-1 lg:grid-cols-[1fr_400px_400px] gap-4">
+      <section className="my-10 md:my-20 flex items-center justify-center w-full md:max-w-400 p-3 md:p-8 mx-auto">
+        <div className="w-full grid grid-cols-1 lg:grid-cols-[minmax(400px,1fr)_400px_400px] gap-4">
 
           {/* Left: Chat UI Card */}
-          <div ref={sectionRef} className="relative rounded-3xl overflow-hidden min-h-[500px] md:min-h-[820px]">
+          <div ref={sectionRef} className="relative rounded-3xl overflow-hidden min-h-125 md:min-h-205">
             <div
-              className="absolute inset-0 bg-cover bg-center"
+              className="absolute inset-0 bg-cover bg-cente w-full md:w-400 h-full"
               style={{ backgroundImage: `url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80')` }}
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center px-4 md:px-10 py-8 md:py-12">
-              <div className="max-w-2xl w-full bg-stone-200 backdrop-blur-sm rounded-2xl p-4 md:p-6" style={{ height: '420px' }}>
+              <div className="max-w-2xl w-full bg-stone-200 backdrop-blur-sm rounded-2xl p-4 md:p-6 min-h-[200px]">
                 <div className="flex flex-col gap-4 overflow-hidden h-full justify-center">
                   {/* AI message 1 */}
                   <div
@@ -114,7 +114,7 @@ function AIfeats() {
 
           {/* Middle column */}
           <div className="flex flex-col gap-4">
-            <div className="bg-white rounded-3xl p-6 md:p-10 flex-1 flex flex-col items-start justify-between min-h-[200px] md:min-h-0">
+            <div className="bg-white rounded-3xl p-6 md:p-10 flex-1 flex flex-col items-start justify-between min-h-[200px] md:min-h-0 w-full md:max-w-">
               <div>
                 <h2 className="text-2xl md:text-4xl font-normal text-black mb-4 md:mb-5">The choice of thousands</h2>
                 <div className="flex -space-x-2 mb-4 md:mb-5">

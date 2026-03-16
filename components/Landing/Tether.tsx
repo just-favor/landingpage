@@ -28,10 +28,10 @@ function Tether() {
   }, []);
 
   return (
-    <div className='p-3 h-auto md:h-screen flex items-center justify-center'>
+    <div className='p-3 h-auto md:min-h-screen flex items-center justify-center '>
             <div 
             ref={bgRef}
-            className='rounded-3xl p-8 md:p-40 h-auto md:h-230 w-full flex items-center justify-center relative overflow-hidden min-h-[400px]' 
+            className='rounded-3xl p-8 md:p-40 h-auto md:min-h-150 w-full flex items-center justify-center relative overflow-hidden min-h-100' 
             style={{backgroundImage: "url('/adam-kool-ndN00KmbJ1c-unsplash.jpg')",
               backgroundSize: 'cover',
               backgroundPosition: 'center',

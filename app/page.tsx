@@ -13,7 +13,7 @@ function page() {
   return (
     <div id="top">
       <Header />
-      <main className="pt-50 md:pt-70">
+      <main className="pt-50 md:pt-50">
         <section id="overview"><Hero /></section>
         <section id="features"><StickyStack /><AIfeats/></section>
         <section id="results"><Casestudy /><Testimonial /></section>

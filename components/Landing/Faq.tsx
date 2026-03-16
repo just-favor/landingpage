@@ -41,7 +41,7 @@ function FAQItem({ question, answer }: FAQItemProps) {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="bg-white rounded-2xl w-full md:w-4xl px-6 py-8 cursor-pointer select-none" onClick={() => setOpen(!open)}>
+    <div className="bg-white rounded-2xl w-full md:max-w-[800px] px-6 py-7 cursor-pointer select-none" onClick={() => setOpen(!open)}>
       <div className="flex items-center justify-between gap-4">
         <span className="text-lg md:text-[25px] font-normal text-gray-900">{question}</span>
         <button
@@ -84,8 +84,8 @@ function FAQItem({ question, answer }: FAQItemProps) {
 
 export default function FAQ() {
   return (
-    <section className="flex items-center px-4 md:px-10 py-16 md:py-30">
-      <div className="w-full md:w-[85%] flex flex-col md:flex-row items-start justify-between mx-auto gap-10 md:gap-0">
+    <section className="flex items-center px-4 md:px-10 py-16 md:py-30 mx-auto">
+      <div className="w-full md:max-w-400 flex flex-col md:flex-row items-start justify-between mx-auto gap-10 md:gap-0">
         {/* Left */}
         <div className="lg:pt-4 w-full md:w-auto flex flex-col items-center md:items-start">
           <h2 className="text-2xl md:text-[2.6rem] font-light leading-tight text-gray-900 tracking-tight">

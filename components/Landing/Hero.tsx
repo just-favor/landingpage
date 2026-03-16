@@ -7,16 +7,16 @@ export default function Hero() {
       <section className="flex flex-col items-center justify-center text-center px-6">
         
         {/* Headline */}
-        <h1 className={`${serif.className} text-4xl md:text-7xl lg:text-8xl font-light text-gray-900 leading-tight max-w-6xl mb-8 md:mb-10`}>
-          Building stronger, more connected teams
+        <h1 className={`${serif.className} text-4xl md:text-7xl font-light text-gray-900 leading-tight max-w-6xl mb-8 md:mb-10`}>
+          Building stronger, more <br /> connected teams
         </h1>
   
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center gap-3 md:gap-5 mb-8 md:mb-10 w-full sm:w-auto px-4 sm:px-0">
-          <button className="w-full sm:w-auto bg-[#fff700] text-gray-900 font-medium px-6 py-3 rounded-full text-base md:text-lg">
+          <button className="w-full sm:w-auto bg-[#fff700] text-gray-900 font-medium px-6 py-2 rounded-full text-base md:text-lg">
             Get started — it's free
           </button>
-          <button className="w-full sm:w-auto bg-white text-gray-900 font-medium px-6 py-3 rounded-full text-base md:text-lg">
+          <button className="w-full sm:w-auto bg-white text-gray-900 font-medium px-6 py-2 rounded-full text-base md:text-lg">
             Explore more
           </button>
         </div>

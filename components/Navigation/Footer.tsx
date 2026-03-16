@@ -41,7 +41,7 @@ export default function Footer() {
         </div>
 
         {/* Desktop layout (original) */}
-        <div className="hidden md:flex flex-row justify-between items-start gap-0">
+        <div className="hidden md:flex flex-row justify-between items-start gap-0 flex-wrap">
           <div className="flex flex-col justify-between h-full gap-10">
             <p className="text-[2.6rem] font-light text-black leading-tight tracking-tight max-w-lg">
               Building Stronger, More<br />Connected Teams
@@ -49,7 +49,7 @@ export default function Footer() {
             <p className="text-lg text-black/95 mt-auto">©2026. All rights reserved.</p>
           </div>
           <div className="flex flex-col gap-10 items-end">
-            <div className="flex items-start justify-between w-full md:w-sm">
+            <div className="flex items-start justify-between gap-16">
               <nav className="flex flex-col gap-3">
                 <a href="#overview" className="text-lg text-black underline underline-offset-6 hover:opacity-60 transition-opacity">Overview</a>
                 <a href="#features" className="text-lg text-black underline underline-offset-6 hover:opacity-60 transition-opacity">Features</a>
